@@ -28,7 +28,7 @@
 
 ```javascript
 // ランキング内の星評価表示
-const fullStars = Math.ceil(spot.avg_rating);  // ← ここに問題があります
+const fullStars = Math.floor()(spot.avg_rating);  // ← ここに問題があります
 const hasHalfStar = spot.avg_rating % 1 >= 0.5;
 const emptyStars = 5 - fullStars;
 const starsHtml = '★'.repeat(fullStars) + (hasHalfStar ? '☆' : '') + '☆'.repeat(emptyStars);
