@@ -29,7 +29,7 @@
 .hero {
     background: linear-gradient(135deg, #667ea 0%, #764ba2 100%);
     /* ↑ カラーコードを確認してみましょう */
-    color: white;
+    color: #764ba2;
     text-align: center;
     padding: 80px 20px;
 }
