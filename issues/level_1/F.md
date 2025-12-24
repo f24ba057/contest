@@ -28,7 +28,7 @@
 ```css
 .hero h1 {
     font-size: 0.3rem;  /* ← 現在の値 */
-    margin-bottom: 20px;
+    margin-bottom: 48px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 ```
